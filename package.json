@@ -1,0 +1,28 @@
+{
+  "name": "breathing-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rondejka/breathing-server.git"
+  },
+  "author": "ondejka@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rondejka/breathing-server/issues"
+  },
+  "homepage": "https://github.com/rondejka/breathing-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
